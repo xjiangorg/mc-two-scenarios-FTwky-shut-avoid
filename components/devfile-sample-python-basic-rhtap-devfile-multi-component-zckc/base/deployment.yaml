@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-rhtap-devfile-multi-component-zckc
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/quay_xjiang/rhtap-demo-gndm-tenant/mc-two-scenarios/devfile-sample-python-basic-rhtap-devfile-multi-component-zckc@sha256:4172c145f4e10527eda8e50b6260117328a530976c9e2bb3c3c69b4376b5f9da
         name: my-python
         ports:
         - containerPort: 8081
